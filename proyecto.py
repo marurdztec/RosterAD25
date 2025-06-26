@@ -7,9 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1n75KmDuNu6AfAlqIZ92f64FeZcB2YJaQ
 """
 
-# Paso 1: Montar Google Drive
-from google.colab import drive
-drive.mount('/content/drive')
+# Paso 1: Montar archivo de Datos Roster
+df = pd.read_csv('Datos_Roster_V2.csv')
 
 # Paso 2: Importar librerías necesarias
 import pandas as pd
