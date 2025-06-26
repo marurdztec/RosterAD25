@@ -8,8 +8,10 @@ Original file is located at
 """
 
 # Paso 1: Montar archivo de Datos Roster
-df = pd.read_csv('Datos_Roster_V2.csv')
+import pandas as pd
 
+url = 'https://raw.githubusercontent.com/yourusername/yourrepo/main/RosterAD25/Datos_Roster_V2.csv'
+df = pd.read_csv(url)
 # Paso 2: Importar librerías necesarias
 import pandas as pd
 from IPython.display import display, HTML
